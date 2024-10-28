@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+@layer components {
+  .tile-2 {
+    @apply bg-[#eee4da] text-[#776e65];
+  }
+  .tile-4 {
+    @apply bg-[#ede0c8] text-[#776e65];
+  }
+  .tile-8 {
+    @apply bg-[#f2b179] text-white;
+  }
+  .tile-16 {
+    @apply bg-[#f59563] text-white;
+  }
+  .tile-32 {
+    @apply bg-[#f67c5f] text-white;
+  }
+  .tile-64 {
+    @apply bg-[#f65e3b] text-white;
+  }
+  .tile-128 {
+    @apply bg-[#edcf72] text-white;
+  }
+  .tile-256 {
+    @apply bg-[#edcc61] text-white;
+  }
+  .tile-512 {
+    @apply bg-[#edc850] text-white;
+  }
+  .tile-1024 {
+    @apply bg-[#edc53f] text-white;
+  }
+  .tile-2048 {
+    @apply bg-[#edc22e] text-white;
+  }
+}
